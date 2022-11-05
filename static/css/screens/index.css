@@ -1,0 +1,72 @@
+.index-main{
+    padding-top: 100px;
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--main-gray);
+}
+
+.index-header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(34, 40, 49, 0);
+    border-bottom: 1px solid #AAAAAA;
+}
+.header-container{
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__left{
+
+}
+.header__right{
+
+}
+
+
+.first-section{
+    width: 100%;
+    height: 25vh;
+
+}
+@keyframes cutting{
+    0% {border-bottom: 1px solid var(--main-gray)}
+    33% {border-bottom: 1px solid var(--main-gray)}
+    100% {border-bottom: 1px solid var(--main-white)}
+}
+.second-section{
+    width: 100%;
+    height: 170px;
+ 
+    background-color: var(--main-gray);   
+    
+    transform-origin: top left;
+
+    will-change: auto;
+
+    --section-skew-Y: 5deg;
+    transform: skewY(var(--section-skew-Y));
+
+    border-bottom: 1px solid var(--main-gray);
+    animation: cutting 1.5s ease-in-out forwards;
+}
+
+@keyframes painting{
+    0% {}
+    50% {background-position:100% 0%}
+    100% {background-position:0% 0%}
+}
+.third-section{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(to right, var(--main-white) 0%,var(--main-white) 50%, var(--main-gray) 50%, var(--main-gray) 100%);
+    background-size: 200% 100%;
+    background-position:100% 0%;
+    animation: painting 3s ease-in-out forwards;
+}

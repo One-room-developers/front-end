@@ -1,6 +1,18 @@
 @import "reset.css";
 @import "variables.css";
 
+/*components*/
+@import "components/header.css";
+@import "components/css_form.css";
+
+/*screens*/
+@import "screens/index.css";
+
+
 *{
     box-sizing: border-box;
+}
+
+body{
+    background-color: var(--main-white);
 }
