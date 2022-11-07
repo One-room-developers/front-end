@@ -1,5 +1,5 @@
 .index-main{
-    padding-top: 100px;
+    padding-top: 108px;
     height: 200vh;
     width: 100%;
     display: flex;
@@ -11,7 +11,7 @@
 
 .index-header{
     width: 100%;
-    height: 100px;
+    height: 108px;
     background-color: rgba(34, 40, 49, 0);
     border-bottom: 1px solid #AAAAAA;
 }
@@ -21,20 +21,104 @@
     padding: 0px 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header__left{
 
 }
 .header__right{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    color: #FFFFFF;
+    font-size: 1.6em;
+    line-height: 28px;
+}
 
+.category__container{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+.category{
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category:hover{
+    border-bottom: 1px solid var(--main-blue);
+}
+.category-span{
+    color:#FFFFFF;
+    font-size: 1.4em;
+}
+.selected{
+    color: var(--main-blue);
+}
+.login-btn{
+    color: #FFFFFF;
+    width: 120px;
+    height: 48px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px 7px;
+    border: 1px solid #FFFFFF;
+}
+.login-btn:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: var(--main-dark);
+}
+.sign-btn{
+    color: aqua;
+    width: 120px;
+    height: 48px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px 7px;
+    background-color: rgba(0, 173, 181, 0.6);
+    border: 1px solid var(--main-blue);
+}
+.sign-btn:hover{
+    background-color: rgba(0, 173, 181, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
 }
 
 
 .first-section{
     width: 100%;
-    height: 25vh;
-
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+@keyframes appear{
+    0% {color: var(--main-gray)}
+    50% {color: var(--main-gray)}
+    100% {color: var(--main-white)}
+}
+.intro{
+    font-size: 3.5em;
+    color: var(--main-gray);
+    animation: appear 1s ease-in-out forwards;
+}
+
+
 @keyframes cutting{
     0% {border-bottom: 1px solid var(--main-gray)}
     33% {border-bottom: 1px solid var(--main-gray)}
@@ -59,14 +143,14 @@
 
 @keyframes painting{
     0% {}
-    50% {background-position:100% 0%}
+    66% {background-position:100% 0%}
     100% {background-position:0% 0%}
 }
 .third-section{
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background: linear-gradient(to right, var(--main-white) 0%,var(--main-white) 50%, var(--main-gray) 50%, var(--main-gray) 100%);
     background-size: 200% 100%;
-    background-position:100% 0%;
+    background-position:100% 100%;
     animation: painting 3s ease-in-out forwards;
 }
