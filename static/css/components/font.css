@@ -10,6 +10,10 @@
     src: url("../../../fonts/HeirofLightRegular.ttf");
     font-family: "gameRegular";
 }
+@font-face{
+    src: url("../../../fonts/HBIOS-SYS.ttf");
+    font-family: "dot";
+}
 
 .font-hambak{
     font-family: "hambak";
@@ -19,4 +23,7 @@
 }
 .font-game-thin{
     font-family: "gameRegular";
+}
+.font-dot{
+    font-family: "dot";
 }
