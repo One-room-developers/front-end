@@ -209,12 +209,10 @@
 .icon-sword{
     width: 45px;
     height: 45px;
-    fill: var(--main-dark);
 }
 .icon-write{
     width: 45px;
     height: 45px;
-    fill: var(--main-white);
 }
 
 .center-line1{
