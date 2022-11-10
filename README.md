@@ -1,5 +1,6 @@
 ### Front-end test repository
 
+error
 ### TO DO
 1. 메인에 소개 텍스트, 이미지 넣기
 2. 메인에 게임 선택으로 가기 링크 넣기
