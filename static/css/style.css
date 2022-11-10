@@ -9,6 +9,7 @@
 /*screens*/
 @import "screens/index.css";
 @import "screens/select.css";
+@import "screens/game_play.css";
 
 
 *{
