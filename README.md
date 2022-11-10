@@ -1,5 +1,13 @@
 ### Front-end test repository
 
+### TO DO
+1. 메인에 소개 텍스트, 이미지 넣기
+2. 메인에 게임 선택으로 가기 링크 넣기
+3. 헤더에 구분해주는 디자인 넣기
+4. select page에 hover animation 넣기
+5. select page에서 home으로 가는 btn만들기
+
+
 ### skew 계산해주는 사이트
 https://codepen.io/minaalfy/pen/exgvjb
 

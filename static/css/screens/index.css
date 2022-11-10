@@ -177,22 +177,46 @@
 }
 
 .play-game-title-container{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 2.5s;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
 
-    transform: translateY(50px);
-    opacity: 0;
-    transition: all 1s ease-in-out;
 }
 
 .play-game-main-text{
-    margin-bottom: 10vh;
-
     transform: translateY(50px);
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 2.5s;
+    
+    margin-bottom: 10vh;
+}
+.go-to-select-btn{
+    border: 1px solid var(--main-dark);
+    background-color: rgba(251,157,52,0.8);
+    width: 11vw;
+    height: 3.5vw;
+    border-radius: 1.4vw 0.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+}
+.go-to-select-btn:hover{
+    cursor: pointer;
+    color: var(--main-dark);
+    background-color: var(--main-orange);
+}
+.go-to-select-btn span{
+    color: var(--main-gray);
+    font-size: 1.5em;
+    margin: 0;
 }
 
 .title-line1{
@@ -202,22 +226,22 @@
 }
 
 .make-game-title-container{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 10vh;
-
-    transform: translateY(50px);
-    opacity: 0;
-    transition: all 1s ease-in-out;
+    margin-bottom: 7vh;
 }
 .make-game-main-text{
-    margin-bottom: 10vh;
-    color: var(--main-gray);
-
     transform: translateY(50px);
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    
+    margin-bottom: 10vh;
+    color: var(--main-gray);
 }
 
 .explain-main-text{
@@ -247,15 +271,15 @@
     align-items: flex-end;
 }
 .block-chain-title-container{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 10vh;
-
-    transform: translateY(50px);
-    opacity: 0;
-    transition: all 1s ease-in-out;
+    margin-bottom: 7vh;
 }
 .block-chain-title{
     text-align: end;
@@ -270,12 +294,11 @@
     background-color: var(--main-white);
 }
 .block-chain-main-container{
-    margin-bottom: 10vh;
-
     transform: translateY(50px);
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
     
+    margin-bottom: 10vh;
 }
 .block-chain-main-text{
     color: var(--main-white);
@@ -284,4 +307,9 @@
 
 .index-elements-fadein{
     animation: elementFadeIn 0.5s ease-in-out forwards;
+}
+.description-size{
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 150%;
 }
