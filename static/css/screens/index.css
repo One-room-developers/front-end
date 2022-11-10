@@ -1,6 +1,5 @@
 .index-main{
     padding-top: 108px;
-    height: 300vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -148,7 +147,7 @@
 }
 .third-section{
     width: 100%;
-    height: 150vh;
+    height: 200vh;
     background: linear-gradient(to right, var(--main-white) 0%,var(--main-white) 50%, var(--main-gray) 50%, var(--main-gray) 100%);
     background-size: 200% 100%;
     background-position:100% 100%;
@@ -180,7 +179,6 @@
     transform: translateY(50px);
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    transition-delay: 2.5s;
     
     display: flex;
     flex-direction: column;
@@ -193,28 +191,32 @@
     transform: translateY(50px);
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    transition-delay: 2.5s;
     
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
 }
 .go-to-select-btn{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.4s;
+
+
     border: 1px solid var(--main-dark);
-    background-color: rgba(251,157,52,0.8);
+
     width: 11vw;
-    height: 3.5vw;
-    border-radius: 1.4vw 0.7vw;
-    display: flex;
+    height: 5.5vw;
     justify-content: center;
     align-items: center;
-    margin-top: 7vh;
+    color: var(--main-white);
+    background-color: var(--main-gray);
 }
 .go-to-select-btn:hover{
     cursor: pointer;
+
     color: var(--main-dark);
     background-color: var(--main-orange);
+    
 }
 .go-to-select-btn span{
-    color: var(--main-gray);
     font-size: 1.5em;
     margin: 0;
 }
@@ -312,4 +314,10 @@
     font-size: 1.4em;
     font-weight: 600;
     line-height: 150%;
+}
+
+.empty{
+    width: 11vw;
+    height: 5.5vw;
+    margin-bottom: 12vh;
 }
