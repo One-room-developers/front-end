@@ -10,6 +10,9 @@
 @import "screens/index.css";
 @import "screens/select.css";
 @import "screens/game_play.css";
+@import "screens/login.css";
+@import "screens/signup.css";
+@import "screens/legal.css";
 
 
 *{

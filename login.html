@@ -7,7 +7,55 @@
     <title>Login</title>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
-    
+<body class="login-img">
+    <main class="login-main">
+        <header class="login-header">
+            <a href="/">
+                <div>
+                    <span class="font-hambak login__title">
+                        TEXT ADVENTURE
+                        <br />
+                        PROJECT
+                    </span>
+                </div>
+            </a>
+            <div></div>
+        </header>
+
+        <form class="login-form" action="">
+           
+            <div class="grid-1 font-game-thick">로그인</div>
+            <div class="grid-2 ">
+                <input type="text" placeholder="계정 이메일">
+                <input type="password" placeholder="비밀번호">
+                <button class="google-login"> <img src="./image/google-logo.png">구글 로그인</button>
+                <div class="autoLogin-container">
+                    <input type="checkbox" id="autoLogin" name="autoLogin">
+                    <label class="font-game-thin" for="autoLogin">로그인 상태 유지</label>
+                </div>
+            </div>
+            <div class="grid-3">
+                <button class="login-enter-btn">
+                    <img src="./image/arrow-right-svgrepo-com.svg" alt="">
+                </button>
+            </div>
+            <div class="grid-4 font-game-thin">
+                <a href="">아이디/비밀번호 찾기</a>
+                <br>
+                <a href="">회원가입</a>
+            </div>
+            
+        </form>
+
+        <div></div>
+    </main>
+    <footer class="login-footer font-game-thin">
+        <div class="footer-link-container">
+            <a href="/">홈</a>
+            <a href="">고객센터</a>
+            <a href="">쿠키설정</a>
+            <a href="">언어</a>
+        </div>
+    </footer>
 </body>
 </html>
